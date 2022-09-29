@@ -455,6 +455,7 @@ text-decoration: none; }
 [rel="home"] {
 display: block;
 margin: 0 auto;
+max-width: 140px;
 transform: translateY(0);
 transition: all .15s ease; }
 
@@ -1103,6 +1104,7 @@ margin-top: -1.5rem; }
 [title="Top"] {
 display: block;
 margin: 0 auto;
+max-width: 140px;
 transform: translateY(0);
 transition: all .15s ease; }
 

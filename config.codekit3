@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34434",
   "files" : {
-    "\/.nova\/Configuration.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.nova\/Configuration-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/android-chrome-192x192.png" : {
       "ft" : 32768,
       "iS" : 13450,
@@ -62,6 +54,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/complaints.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/complaints.html",
       "oF" : 0
     },
     "\/complaints.kit" : {
@@ -362,6 +362,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/partials\/_header.html",
+      "oF" : 0
+    },
+    "\/partials\/_headline-complaints.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_headline-complaints.html",
       "oF" : 0
     },
     "\/partials\/_headline-contact.kit" : {
