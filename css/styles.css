@@ -50,6 +50,7 @@
 --color-logo-col-2: #586B74;
 --color-logo-col-3: #8498A3;
 --color-logo-col-4: #9CACB5;
+--stroke-logo: #141414;
 
 /* BORDERS */
 
@@ -106,7 +107,8 @@
 --color-logo-col-1: #A2B8C3;
 --color-logo-col-2: #89A5B3;
 --color-logo-col-3: #A2B8C3;
---color-logo-col-4: #D9E2E7; }
+--color-logo-col-4: #D9E2E7;
+--stroke-logo: #272f33; }
 }
 
 [data-user-color-scheme='yellow-dark'] {
@@ -117,7 +119,8 @@
 --color-logo-col-1: var(--color-accent);
 --color-logo-col-2: #586B74;
 --color-logo-col-3: #8498A3;
---color-logo-col-4: #9CACB5; }
+--color-logo-col-4: #9CACB5;
+--stroke-logo: #141414; }
 
 [data-user-color-scheme='green-dark'] {
 --color-accent: #b8c676;
@@ -127,7 +130,8 @@
 --color-logo-col-1: var(--color-accent);
 --color-logo-col-2: #586B74;
 --color-logo-col-3: #8498A3;
---color-logo-col-4: #9CACB5; }
+--color-logo-col-4: #9CACB5;
+--stroke-logo: #141414; }
 
 [data-user-color-scheme='blue-light'] {
 --color-accent: #64899b;
@@ -152,7 +156,8 @@
 --color-logo-col-1: #A2B8C3;
 --color-logo-col-2: #89A5B3;
 --color-logo-col-3: #A2B8C3;
---color-logo-col-4: #D9E2E7; }
+--color-logo-col-4: #D9E2E7;
+--stroke-logo: #272f33; }
 
 [data-user-color-scheme='red-light'] {
 --color-accent: #fB6a6a;
@@ -177,7 +182,8 @@
 --color-logo-col-1: #FC9C9C;
 --color-logo-col-2: #FB6A6A;
 --color-logo-col-3: #FC9C9C;
---color-logo-col-4: #FDD7D7; }
+--color-logo-col-4: #FDD7D7;
+--stroke-logo: #FA3838; }
 
 [data-user-color-scheme='green-light'] {
 --color-accent: #a1b34d;
@@ -202,7 +208,8 @@
 --color-logo-col-1: #C7D293;
 --color-logo-col-2: #B8C676;
 --color-logo-col-3: #C7D293;
---color-logo-col-4: #E8EDD3; }
+--color-logo-col-4: #E8EDD3;
+--stroke-logo: #A2B44B; }
 
 /* UTILITIES */
 
@@ -730,6 +737,10 @@ max-width: 140px; }
 .logo-col-2 { fill: var(--color-logo-col-2); }
 .logo-col-3 { fill: var(--color-logo-col-3); }
 .logo-col-4 { fill: var(--color-logo-col-4); }
+
+.logo-stroke {
+stroke: var(--stroke-logo);
+stroke-width: 10; }
 
 .img-col-1 {
 fill: var(--color-img-col-1); }
