@@ -658,6 +658,9 @@ font-weight: normal; }
 i, em {
 font-style: normal; }
 
+sup {
+vertical-align: text-top; }
+
 small{
 display: block;
 margin-bottom: var(--spacing-default);
