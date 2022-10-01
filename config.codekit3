@@ -664,6 +664,14 @@
       "oAP" : "\/site.webmanifest",
       "oF" : 0
     },
+    "\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/thankyou.html",
+      "oF" : 0
+    },
     "\/treatments.html" : {
       "cB" : 0,
       "ft" : 8192,
