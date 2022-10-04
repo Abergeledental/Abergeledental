@@ -92,10 +92,10 @@
       "aP" : 0,
       "bl" : 0,
       "ci" : 0,
-      "co" : 1,
+      "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/partials\/_styles.kit",
       "oF" : 3,
       "pg" : 0
@@ -662,6 +662,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site.webmanifest",
+      "oF" : 0
+    },
+    "\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/thankyou.html",
       "oF" : 0
     },
     "\/thankyou.kit" : {
