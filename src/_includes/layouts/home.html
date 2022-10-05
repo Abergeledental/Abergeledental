@@ -1,0 +1,70 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="grid-dredd">
+
+<main>
+
+<div class="banner">
+<h1><span class="sr-only">Abergele Dental Surgery ~ Love your smile</span>
+{% include "partials/_img-index.html" %}</h1>
+</div><!-- banner -->
+
+<p class="first-line">I&#8217;m Dr Razvan Beretchi and at Abergele Dental, my team and I provide family-friendly dentistry. We offer routine dental and restorative treatments and take enormous pride in the care we give to our patients. Phone us or email to discuss your dental care and arrange a consultation.</p>
+
+<div class="signature">
+<div>
+<p><span class="sr-only">Razvan</span> {% include "partials/_text-signature.svg" %}</p>
+</div><!-- one -->
+
+<div>
+<p><a href="tel:01745832279" title="Press to call">01745 832279</a> ~ <a href="mailto:info@abergeledental.co.uk" title="Email">info@abergeledental.co.uk</a> <br>
+Mobile/WhatsApp: <a href="tel:07511877152" title="Press to call">07511 877 152</a></p>
+</div><!-- two -->
+
+</div><!-- signature -->
+
+<h2><span class="sr-only">Dentistry from our family to yours</span>
+{% include "partials/_text-index.svg" %}
+</h2>
+
+<p>Our Abergele practice provides caring, preventive dentistry for everyone in your family, helping everyone to keep their mouth healthy. We offer preventive dentistry to help people keep their teeth for life, dental hygiene treatments to improve gum health, and restorative dentistry including fillings and root canal treatments. Our patients may choose between Denplan&#8212;to help budget for your dental care&#8212;and pay-as-you-go payment options.</p>
+
+</main>
+
+<aside>
+
+<h3><span class="sr-only">Opening hours</span>
+{% include "partials/_text-opening.html" %}
+</h3>
+
+<p class="secondary">Mon, Wed, Thu: 9am&#8211;5:30pm <sup>*</sup><br>
+Tue: 9am&#8211;5pm *<br>
+Fri: 9am&#8211;1pm <br>
+<span class="tertiary"><sup>*</sup> Closed for lunch 1pm&#8211;2pm.</span></p>
+
+<p><a href="tel:01745 832279" title="Press to call">{% include "partials/_text-tel.svg" %}</a></p>
+
+<blockquote>
+<p>Thank you so much for looking after me and my teeth. You&#8217;re all amazing.</p>
+<b aria-hidden="true">{% include "partials/_icon-quote.svg" %}</b>
+</blockquote>
+
+{% include "partials/_text-treatments.html" %}
+
+<ul class="alt-treatments">
+<li>Dentures</li>
+<li>Emergency treatment</li>
+<li>Examinations</li>
+<li>Extractions</li>
+<li>Oral hygiene</li>
+<li>Periodontal care</li>
+<li>Preventive dentistry</li>
+<li>Restorative dentistry</li>
+</ul>
+
+</aside>
+
+</div><!-- grid -->
+
+{% endblock %}

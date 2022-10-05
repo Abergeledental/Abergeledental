@@ -1,0 +1,97 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+<div class="grid-death">
+
+<div>
+<h1><span class="sr-only">Privacy</span>
+{% include "partials/_headline-privacy.svg" %}</h1>
+
+<p class="secondary"><b>Last updated</b> September 2022</p>
+
+<p class="secondary">We respect the EU&#8217;s General Data Protection Regulations (GDPR) and this policy explains how we collect and treat any information you give us. You won&#8217;t find any complicated legal terms or long passages of unreadable text. We&#8217;ve no desire to trick you into agreeing to something you might later regret.</p>
+
+<h3>Our policy covers</h3>
+
+<ol class="secondary">
+<li><a href="#why-we-value-your-privacy">Why we value your privacy</a></li>
+<li><a href="#how-we-collect-information">How we collect information</a></li>
+<li><a href="#what-information-we-store">What information we store</a></li>
+<li><a href="#where-we-store-your-information">Where we store your information</a></li>
+<li><a href="#how-we-use-your-information">How we use your information</a></li>
+<li><a href="#who-is-responsible-for-your-information-at-our-company">Who&#8217;s responsible for your information at our company</a></li>
+<li><a href="#who-has-access-to-information-about-you">Who has access to information about you</a></li>
+<li><a href="#steps-we-take-to-keep-your-information-private">Steps we take to keep your information private</a></li>
+<li><a href="#how-to-complain">How to complain</a></li>
+<li><a href="#changes-to-the-policy">Changes to the policy</a></li>
+</ol>
+
+<h3 id="why-we-value-your-privacy">Why we value your privacy</h3>
+
+<p class="secondary">We value your privacy as much as we do our own, so we&#8217;re committed to keeping your personal and business information safe. We ask for only the bare minimum from our customers. We&#8217;ll never use your personal information for any reason other than why you gave it, and we&#8217;ll never give anyone access to it unless we&#8217;re forced to by law.</p>
+
+<h3 id="how-we-collect-information">How we collect information</h3>
+
+<p class="secondary">We ask for contact information including your name, email address, and phone number, on our website so that we can reply to your enquiry.</p>
+
+<p class="secondary">We doesn&#8217;t use cookies or scripts which were designed to track the websites you visit. We don&#8217;t use analytics or native social media ‘like&#8217; or ‘sharing&#8217; buttons which also build profiles of your internet activity.</p>
+
+<h3 id="what-information-we-store">What information we store</h3>
+
+<p class="secondary">When you contact us by email or through our website, we store your name and email address, plus your phone number if you&#8217;ve given them to us.</p>
+
+<h3 id="where-we-store-your-information">Where we store your information</h3>
+
+<p class="secondary">If you&#8217;re a patient, we store your information in [Company], our accounts software.</p>
+
+<h3 id="how-we-use-your-information">How we use your information</h3>
+
+<p class="secondary">We occasionally use your contact information to send you details of our products and services. When we do, you have the option to unsubscribe from these communications and we won&#8217;t send them to you again. We might also email or phone you about our products and services, but if you tell us not to, we won&#8217;t get in touch again. We will use your information to send you invoices, statements, or reminders.</p>
+
+<h3 id="who-is-responsible-for-your-information-at-our-company">Who&#8217;s responsible for your information at our company</h3>
+
+<p class="secondary">Dr Razvan Beretchi, our Dentist, is responsible for the security of your information. You can contact him by email at info@abergeledental.co.uk or by phone on 01745 832279 if you have concerns about the information we store.</p>
+
+<h3 id="who-has-access-to-information-about-you">Who has access to information about you</h3>
+
+<p class="secondary">When we store information in our own systems, only the people who need it have access. Our management team have access to everything you&#8217;ve provided, but individual employees have access to only what they need to do their job.</p>
+
+<h3 id="steps-we-take-to-keep-your-information-private">Steps we take to keep your information private</h3>
+
+<p class="secondary">Where we store your information in third-party services, we restrict access only to people who need it. We store passwords in an encrypted password manager, use a different, randomly generated password for each service, and never use the same password twice. The computers we use are all encrypted and protected by a passcode or fingerprint access. These computers ask for authentication whenever they&#8217;re started or after five minutes of inactivity. Our mobile devices are also protected by a fingerprint or facial recognition.</p>
+
+<h3 id="how-to-complain">How to complain</h3>
+
+<p class="secondary">We take complaints very seriously. If you&#8217;ve any reason to complain about the ways we handle your privacy, please contact Dr Razvan Beretchi by email at info@abergeledental.co.uk or by phone on 01745 832279. If you&#8217;re the letter writing type, send your envelope to Abergele Dental Surgery
+Groes Lwyd, Abergele, Conwy, Cymru&#8202;/&#8202;Wales, LL22 7TA.</p>
+
+<h3 id="changes-to-the-policy">Changes to the policy</h3>
+
+<p class="secondary">If we change the contents of this policy, those changes will become effective the moment we publish them on our website.</p>
+
+<hr>
+
+<p class="secondary">Our privacy policy is based on <a href="https://stuffandnonsense.co.uk/projects/protection-racket">(Data) Protection Racket</a>, the GDPR privacy policy template.</p>
+
+</div><!-- one -->
+
+<div>
+{% include "partials/_img-article-1.svg" %}
+</div><!-- two -->
+
+<div>
+<h3><span class="sr-only">About us</span>
+{% include "partials/_text-about.svg" %}</h3>
+{% include "partials/_snippet-about.html" %}
+
+<blockquote>
+<p>Thank you so much for your compassion and care following my accident.</p>
+<b aria-hidden="true">{% include "partials/_icon-quote.svg" %}</b>
+</blockquote>
+
+</div><!-- three -->
+
+</div><!-- grid -->
+{% endblock %}

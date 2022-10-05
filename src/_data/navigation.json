@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "text": "Practice",
+      "url": "/practice/"
+    },
+    {
+      "text": "Treatments",
+      "url": "/treatments/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "src/images"
+public_folder: "/images"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Homepage"
+        delete: false
+        file: "src/index.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/base.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "about"
+        label: "About"
+        delete: false
+        file: "src/about.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "selling-ifa"
+        label: "Will selling your IFA business fit?"
+        delete: false
+        file: "src/will-selling-your-ifa-business-fit.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/new-page.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact"
+        label: "Contact"
+        delete: false
+        file: "src/contact.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "privacy-policy"
+        label: "Privacy Policy"
+        delete: false
+        file: "src/privacy-policy.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "terms-and-conditions"
+        label: "Terms & Conditions"
+        delete: false
+        file: "src/terms-and-conditions.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "investments"
+        label: "Investments"
+        delete: false
+        file: "src/clients.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "retirement"
+        label: "Retirement"
+        delete: false
+        file: "src/destinations.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "tax"
+        label: "Tax"
+        delete: false
+        file: "src/families.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "savings"
+        label: "Savings"
+        delete: false
+        file: "src/journies.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "insurance"
+        label: "Insurance"
+        delete: false
+        file: "src/circumstances.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "goal-setting"
+        label: "Goal Setting"
+        delete: false
+        file: "src/dreams.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/about.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "SEO Meta Description",
+              name: "metaDesc",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "posts"
+    label: "Posts"
+    folder: "src/posts"
+    slug: "{{slug}}"
+    preview_path: "posts/{{slug}}"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Globals"
+    name: "globals"
+    files:
+      - label: "Site Data"
+        name: "site_data"
+        delete: false
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Site Name", name: "name", widget: "string" }
+          - { label: "Site Url", name: "url", widget: "string" }
+          - { label: "Author Name", name: "authorName", widget: "string" }
+          - {
+              label: "Author Email Address",
+              name: "authorEmail",
+              widget: "string",
+            }
+          - {
+              label: "Telephone",
+              name: "telephone",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - {
+              label: "Twitter Handle",
+              name: "twitter",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Linkedin Handle",
+              name: "linkedin",
+              widget: "string",
+              required: false,
+            }
+      - label: "Footer Navigation"
+        name: "bottom nav"
+        delete: false
+        file: "src/_data/footer_navigation.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
+      - label: "Team Members"
+        name: "team"
+        delete: false
+        file: "src/_data/team.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - {
+                  label: "Snippet",
+                  name: "snippet",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Extra",
+                  name: "extra",
+                  widget: "string",
+                  required: false,
+                }
+              - { label: "Pic", name: "pic", widget: "image", required: false }
+      - label: "testimonials"
+        name: "testimonial"
+        delete: false
+        file: "src/_data/testimonials.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Testimonial", name: "testimonial", widget: "string" }
+      - label: "cta"
+        name: "cta"
+        delete: false
+        file: "src/_data/cta.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Button Text", name: "buttonText", widget: "string" }
+          - { label: "Button Url", name: "buttonUrl", widget: "string" }

@@ -1,0 +1,88 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "src/images"
+public_folder: "/images"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "treatments"
+        label: "Treatments"
+        delete: false
+        file: "src/treatments.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/treatments.html",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Prices", name: "body", widget: "markdown" }
+      - name: "practice"
+        label: "Practice"
+        delete: false
+        file: "src/practice.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/treatments.html",
+            }
+          - { label: "Our Practice", name: "ourpractice", widget: "markdown" }
+          - { label: "Our Family", name: "ourfamily", widget: "markdown" }
+  - label: "Globals"
+    name: "globals"
+    files:
+      - label: "Site Data"
+        name: "site_data"
+        delete: false
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Site Name", name: "name", widget: "string" }
+          - { label: "Site Url", name: "url", widget: "string" }
+          - { label: "Author Name", name: "authorName", widget: "string" }
+          - {
+              label: "Author Email Address",
+              name: "authorEmail",
+              widget: "string",
+            }
+          - {
+              label: "Telephone",
+              name: "telephone",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Hours", name: "hours", widget: "string", required: false }
+          - {
+              label: "Hours Details",
+              name: "hoursDetail",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Availability",
+              name: "availability",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - {
+              label: "Twitter Handle",
+              name: "twitter",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Linkedin Handle",
+              name: "linkedin",
+              widget: "string",
+              required: false,
+            }

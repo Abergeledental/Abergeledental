@@ -1,0 +1,20 @@
+<header role="banner">
+
+<div>
+<a href="/" title="Abergele Dental home" rel="home">{% include "partials/_logo.html" %}</a>
+<h1 class="sr-only">Abergele Dental Surgery</h1>
+<p class="sr-only">We deliver routine dental and restorative treatments and take enormous pride in the care we offerour patients.</p>
+</div><!-- one -->
+
+<div>
+<ul class="alt-nav">
+{% for item in navigation.items %}
+  <li>
+    <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }} class="{{ item.class }}" target="{{ item.target }}">{{ item.text }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+</div><!-- two -->
+
+</header>

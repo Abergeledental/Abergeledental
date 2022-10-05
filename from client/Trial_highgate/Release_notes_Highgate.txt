@@ -1,0 +1,59 @@
+==Release notes Highgate, Highgate VF==
+
+Compiler of release notes: Dalton Maag
+Designer: Dalton Maag
+Designer URL: daltonmaag.com
+
+Release date: 2020-07-21
+
+Change log:
+- v1.101:
+    - Fix designer name in fontinfo
+
+- v1.100: 
+    - Add italic VF
+    - The static fonts (upright and italic) were hinted using VTT6.33 Beta and ClearType with anti-aliasing.
+    - In uprights: improve alignment of glyphs to vertical metrics and overshoots
+    - In uprights: improve tabular figures 
+    - In uprights: minor fixes to /percent/perthousand/ordfemenine/divisionslash/micro 
+
+- v1.001: 
+    - Change kerning classes to include icons /M and .case punctuation
+    - Fix /ijacute
+    - Adjust quote set spacing
+    - Improve kerning and spacing on capitals and icons
+
+- v1.000: This is the first release.
+
+Basic information 
+1 Font name: 
+    - Static: Highgate
+    - Variable: Highgate VF
+2 TrueType Version record: 1.101
+3 Character Set: Dalton Maag Library Set
+4 Supported scripts: Latin
+5 Number of glyphs: 599
+6 Usage: Text and Display
+7 Number of axes: 1
+8 Axes:
+    - Weight
+        tag: wght
+        range: 100 (Thin) - 900 (Black)
+
+9 Named instances: Hairline, Thin, Light, Regular (default instance), Medium, Bold, Semi Bold, Extra Bold, Black.
+
+Technology 
+1 File formats: 
+    - Static: The files have been delivered in the TrueType-based OpenType format, for use in all major Operating Systems, and also as TTF for use in apps, and in web font format: WOFF, WOFF2.
+    - Variable: The files have been delivered as variable fonts in the TrueType-based OpenType format, for use in all major Operating Systems, and also as TTF for use in apps, and in web font format: WOFF2.
+2 Embedding settings: Editing of the document is allowed (editable mode); subsetting is allowed.
+3 Hinting information:
+    - Static: All glyphs are automatically hinted and then corrected for optimized rasterization in Microsoft DirectWrite ClearType.
+    - Variable: No hinting.
+4 Default numerals: Proportional. Tabular figures accessible via OpenType features.
+
+Other Information
+
+There are two stylistic sets:
+- ss01: contains a diamond version of glyphs using a dot-based shape, including accents and punctuation.
+- ss02: contains a sharp version of some glyphs (P, Z, t, z) including their related accented glyphs (and ss01 versions).

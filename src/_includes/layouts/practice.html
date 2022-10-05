@@ -1,0 +1,61 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="grid-fear">
+
+<div>
+
+<h1><span class="sr-only">Our practice</span>
+{% include "partials/_headline-practice.svg" %}</h1>
+
+<p class="first-line">First established more than 60 years ago, at Abergele Dental, our team deliver offer dental and restorative treatments. Our practice provides caring dentistry for everyone in your family, helping everyone to keep their mouths healthy.</p>
+
+{% include "partials/_text-treatments.html" %}
+<ul class="alt-columns">
+<li>Dentures</li>
+<li>Emergency treatment</li>
+<li>Examinations</li>
+<li>Extractions</li>
+<li>Oral hygiene</li>
+<li>Periodontal care</li>
+<li>Preventive dentistry</li>
+<li>Restorative dentistry</li>
+</ul>
+
+<!-- ELEVENTY EDITABLE -->
+{{ ourpractice | safe }}
+<!-- / ELEVENTY EDITABLE -->
+<p>{{ site.availability }}</p>
+</div><!-- one -->
+
+<div>
+{% include "partials/_img-article-2.svg" %}
+</div><!-- two -->
+
+</div><!-- grid -->
+
+<hr class="alt--spacer">
+
+<div class="grid-fear">
+
+<div>
+
+<h1><span class="sr-only">Our family</span>
+{% include "partials/_headline-family.svg" %}</h1>
+
+<!-- ELEVENTY EDITABLE -->
+{{ ourfamily | safe }}
+
+<!-- / ELEVENTY EDITABLE -->
+
+</div><!-- one -->
+
+<div>
+
+{% include "partials/_img-family.html" %}
+
+</div><!-- two -->
+
+</div><!-- grid -->
+
+{% endblock %}
