@@ -845,21 +845,6 @@ border-bottom-width: 0;
 
 /* IMAGES */
 
-img,
-svg {
-border-width: 0;
-content-visibility: auto;
-width: 100%;
-max-width: 100%;
-vertical-align: middle; }
-
-img[width],
-img[height],
-svg[width],
-svg[height] {
-width: auto;
-max-width: none; }
-
 .banner {
 margin-bottom: var(--spacing-default);
 }
