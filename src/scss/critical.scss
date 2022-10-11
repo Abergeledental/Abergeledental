@@ -725,8 +725,7 @@ font-size: var(--font-size-default);
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 0 5px;
-}
+gap: 0 5px; }
 
 .alt-themes li {
 display: inline-block;
@@ -735,20 +734,16 @@ font-size: var(--font-size-x-small);
 text-transform: uppercase;
 transform: scale(1);
 transform-origin: 50% 50%;
-transition: transform var(--duration-promptly) ease;
-}
+transition: transform var(--duration-promptly) ease; }
 
 .alt-themes li:hover {
-transform: scale(1.25);
-}
+transform: scale(1.25); }
 
 .alt-themes label {
-cursor: pointer;
-}
+cursor: pointer; }
 
 .alt-themes input {
-display: none;
-}
+display: none; }
 
 @media (min-width: 64em) {
 
@@ -862,6 +857,7 @@ img[width],
 img[height],
 svg[width],
 svg[height] {
+width: auto;
 max-width: none; }
 
 .banner {
