@@ -845,9 +845,12 @@ border-bottom-width: 0;
 
 /* IMAGES */
 
+@media (min-width: 64em) {
 #svg-index {
+max-height: 95vh;
 max-width: 100%;
 width: 100%; }
+}
 
 .banner {
 margin-bottom: var(--spacing-default);
