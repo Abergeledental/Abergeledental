@@ -6,14 +6,14 @@ prices: >-
 
 ---
 
-### Emergency treatment
-If you have toothache, we&#8217;ll help relieve your pain and get your mouth healthy again.
+### Examinations
+We&#8217;ll examine your gums for disease and teeth for cracks, decay, or excessive wear.
 
 ### Dentures
 Well-fitting dentures will help you to eat and speak better and can improve your appearance.
 
-### Examinations
-We’ll examine your gums for disease and teeth for cracks, decay, or excessive wear.
+### Emergency treatment
+If you have toothache, we&#8217;ll help relieve your pain and get your mouth healthy again.
 
 ### Oral hygiene
 We will professionally clean and polish your teeth and keep them free from plaque.
