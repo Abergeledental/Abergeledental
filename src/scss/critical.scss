@@ -1204,12 +1204,12 @@ input:focus::placeholder {
 @media (min-width: 64em) {
 
   .grid-dredd {
-    margin-top: -4.5rem;
+    margin-top: -3rem;
   }
 
   .grid-dredd> :nth-child(1) {
     grid-column: a2 / a7;
-    margin-top: -3rem;
+    margin-top: -4.5rem;
   }
 
   .grid-dredd> :nth-child(2) {
