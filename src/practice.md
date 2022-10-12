@@ -9,9 +9,9 @@ ourpractice: >
 
   <p>Phone us on <a href="tel:01745832279" title="Press to call">01745 832279</a> or email <a href="mailto:info@abergeledental.co.uk">info@abergeledental.co.uk</a> to discuss your dental care and arrange a consultation. Our practice is wheelchair accessible.</p>
 ourfamily: >
-  <p class="first-line">I&#8217;m Dr Razvan Beretchi and together with my wife Margareta, we run Abergele Dental Surgery. Originally from Romania, we decided to make the north of Cymru&#8202;/&#8202;Wales our home over 10 years ago and it&#8217;s where we began treating our patients in 2010. WeI&#8217;ve been owners of Abergele Dental since 2018.</p>
+  <p class="first-line">I&#8217;m Dr Razvan Beretchi and together with my wife Margareta, we run Abergele Dental Surgery. Originally from Romania, we decided to make the north of Cymru&#8202;/&#8202;Wales our home over 10 years ago and it&#8217;s where we began treating our patients in 2010. We&#8217;ve been owners of Abergele Dental since 2018.</p>
 
-  <p>At home, Margareta and I have two beautiful children&#8212;a girl and boy &#8212; and a cat called Socks. Family life is important to us and we feel that our practice and patients are an extension of our family.</p>
+  <p>At home, Margareta and I have two beautiful children&#8212;a girl and boy&#8212;and a cat called Socks. Family life is important to us and we feel that our practice and patients are an extension of our family.</p>
 
 
 ---
