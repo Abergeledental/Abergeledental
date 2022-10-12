@@ -852,7 +852,7 @@ hr.alt--spacer {
 
 /* IMAGES */
 
-@media (min-height: 700px) {
+@media (min-width: 64em) and (min-height: 700px) {
 
   .svg-index {
     max-height: 90vh;
@@ -1204,7 +1204,7 @@ input:focus::placeholder {
 @media (min-width: 64em) {
 
   .grid-dredd {
-    margin-top: -3rem;
+    margin-top: -4.5rem;
   }
 
   .grid-dredd> :nth-child(1) {
