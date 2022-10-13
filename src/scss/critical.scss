@@ -415,6 +415,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-size: 1em;
+transition: all 5s ease;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
