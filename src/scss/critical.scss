@@ -1001,12 +1001,6 @@ textarea:focus {
   border-color: #e64d4d;
 }
 
-input:invalid,
-textarea:invalid {
-border-color: var(--color-input-border-error);
-accent-color: var(--color-input-border-error);
-}
-
 
 
 input[type]::placeholder {
