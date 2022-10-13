@@ -33,6 +33,7 @@
   --color-input-background-hover: var(--color-background);
   --color-input-background-active: var(--color-background);
   --color-input-border: var(--color-border);
+  --color-input-border-error: #ff4dad;
   --color-input-border-hover: var(--color-accent);
   --color-input-border-active: var(--color-accent);
   --color-input-placeholder: rgba(255, 255, 255, .25);
@@ -999,6 +1000,14 @@ textarea:focus {
 [type="text"].error {
   border-color: #e64d4d;
 }
+
+input:required:invalid,
+textarea:required:invalid {
+border-color: var(--color-input-border-error);
+accent-color: var(--color-input-border-error);
+}
+
+
 
 input[type]::placeholder {
   font-family: var(--font-family-default);
