@@ -1001,8 +1001,8 @@ textarea:focus {
   border-color: #e64d4d;
 }
 
-input:required:invalid,
-textarea:required:invalid {
+input:invalid,
+textarea:invalid {
 border-color: var(--color-input-border-error);
 accent-color: var(--color-input-border-error);
 }
