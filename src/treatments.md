@@ -6,7 +6,7 @@ prices: ""
 ---
 ### Examinations
 
-We'll examine your gums for disease and teeth for cracks, decay, or excessive wear.
+We'll examine your gums for disease and teeth for cracks, decay, or excessive wear. 
 
 ### Dentures
 
