@@ -1,0 +1,46 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+<div class="grid-death">
+
+<div>
+<h1>Environment</h1>
+
+<p>At Abergele Dental, we&#8217;re proud of our efforts to reduce waste and contribute to environmental protection. Here&#8217;s what we&#8217;ve done so far:</p>
+
+<p><b>Transitioning to LED Lighting</b>: We&#8217;ve taken a significant step towards energy efficiency by replacing our old-style lights with a new LED lighting system. By embracing LED technology, we not only reduce our electricity consumption but also minimise the need for frequent replacements, thereby minimising waste.</p>
+
+<p><b>Paper and Cardboard Recycling</b>: To minimise paper and cardboard waste, we&#8217;ve implemented a shredding process for these materials. After shredding, we compost the paper and cardboard, diverting them from landfills and enriching the soil. This sustainable solution helps us reduce our environmental impact.</p>
+
+<p><b>PPE Waste Reduction</b>: We recognise the importance of reducing personal protective equipment (PPE) waste. To address this, we invested in Duraflow hoods, which offer reusable and durable protection for our staff. By choosing reusable hoods, we minimise the amount of single-use PPE items that would otherwise contribute to landfill waste.</p>
+
+<p><b>Digital X-ray Technology</b>: We&#8217;ve embraced digital X-ray technology, eliminating the need for traditional X-ray films and chemical processing solutions. This transition not only streamlines our imaging process but also significantly reduces the generation of hazardous waste. Going digital allows us to reduce our environmental footprint and prioritise safer practices within our healthcare setting.</p>
+
+<p><b>Smart Thermostat Implementation</b>: To manage energy consumption efficiently, We&#8217;ve implemented a smart thermostat system. This technology enables us to optimise heating and cooling in our practice, minimising energy waste. By using intelligent temperature control, we can maintain a comfortable environment while minimising unnecessary energy usage and associated emissions.</p>
+
+<hr>
+
+<p>These initiatives reflect our commitment to sustainability and our desire to make a positive impact. We believe that small changes can lead to significant results, both within our practice and for the world around us. By reducing waste, conserving resources, and protecting the environment, we strive to set an example and inspire others to join us on the path towards a greener future.</p>
+
+</div><!-- one -->
+
+<div>
+{% include "partials/_img-article-1.svg" %}
+</div><!-- two -->
+
+<div>
+<h3><span class="sr-only">About us</span>
+{% include "partials/_text-about.svg" %}</h3>
+{% include "partials/_snippet-about.html" %}
+
+<blockquote>
+<p>Thank you so much for your compassion and care following my accident.</p>
+<b aria-hidden="true">{% include "partials/_icon-quote.svg" %}</b>
+</blockquote>
+
+</div><!-- three -->
+
+</div><!-- grid -->
+{% endblock %}
