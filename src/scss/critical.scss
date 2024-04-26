@@ -1054,7 +1054,7 @@ margin-block-end: var(--spacing-medium);
 margin-trim: block;
 padding-block: var(--spacing-small);
 background-color: var(--color-accent);
-color: var(--color-text-default);
+color: var(--color-background);
 margin-inline: -3rem;
 margin-block-start: -1.5rem; }
 
@@ -1062,7 +1062,7 @@ margin-block-start: -1.5rem; }
 margin: 0;
 font-size: var(--font-size-small);
 text-align: center;
-color: var(--color-text-default);}
+color: var(--color-background); }
 
 .prices {
   margin: var(--spacing-medium) 0;
