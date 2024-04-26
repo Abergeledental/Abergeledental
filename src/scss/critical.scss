@@ -1050,11 +1050,13 @@ input:focus::placeholder {
 /* announcement */
 
 #announcement {
-margin-block-end: var(--spacing-default);
+margin-block-end: var(--spacing-medium);
 margin-trim: block;
 padding-block: var(--spacing-small);
 background-color: var(--color-accent);
-color: var(--color-text-default); }
+color: var(--color-text-default);
+margin-inline: -3rem;
+margin-block-start: -1.5rem; }
 
 #announcement p {
 margin: 0;
