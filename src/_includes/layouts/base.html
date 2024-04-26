@@ -2,22 +2,22 @@
 {% set pageTitle = title + ' - ' + site.name %}
 
 {# We don't want any duplication. This is likely for the homepage #}
-{% if site.name === title %} 
-  {% set pageTitle = title %}
+{% if site.name === title %}
+{% set pageTitle = title %}
 {% endif %}
 
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
 
-{# If the page’s frontmatter has specific metaTitle and/or metaDesc items, switch 
-  them into the mix #}
+{# If the page’s frontmatter has specific metaTitle and/or metaDesc items, switch
+them into the mix #}
 {% if metaTitle %}
-  {% set pageTitle = metaTitle %}
+{% set pageTitle = metaTitle %}
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+{% set metaDesc = summary %}
 {% endif %}
 
 <!DOCTYPE html>
@@ -32,8 +32,8 @@
 <link rel="preload" type="font/woff2" href="/fonts/bwaletano10-medium.woff2" as="font" crossorigin=""/>
 <link rel="preload" type="font/woff2" href="/fonts/bwaletano10-bold.woff2" as="font" crossorigin=""/>
 <style>
-    {% include "css/critical.css"%}
-  </style>
+{% include "css/critical.css"%}
+</style>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -56,26 +56,21 @@
 <link rel="manifest" href="/site.webmanifest" />
 <link rel="canonical" href="https://www.abergeledental.co.uk/">
 <script>
-  	theme = localStorage.getItem("theme");
-	  if (theme) {
-		document.querySelector('html').setAttribute('data-user-color-scheme', theme);
-		}
+theme = localStorage.getItem("theme");
+if (theme) {
+document.querySelector('html').setAttribute('data-user-color-scheme', theme);
+}
 </script>
 </head>
 
 <body id="abergele-dental">
-  {% include "partials/site-head.html" %}
-
-      {% block content %}
-
-     
-
-      {% endblock %}
-
-    {% include "partials/site-footer.html" %}
-  </div>
-  {% include "js/scripts.js" %}
-  {% include "js/instant-page.5.1.0.min.js" %}
+{% include "partials/site-head.html" %}
+{% include "partials/announcement.html" %}
+{% block content %}{% endblock %}
+{% include "partials/site-footer.html" %}
+</div>
+{% include "js/scripts.js" %}
+{% include "js/instant-page.5.1.0.min.js" %}
 </body>
 
 </html>

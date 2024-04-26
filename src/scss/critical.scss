@@ -1047,6 +1047,20 @@ input:focus::placeholder {
 
 /* COMPONENTS */
 
+/* announcement */
+
+#announcement {
+margin-block-end: var(--spacing-default);
+margin-trim: block;
+padding-block: var(--spacing-small);
+background-color: var(--color-accent);
+color: var(--color-text-default); }
+
+#announcement p {
+margin: 0;
+font-size: var(--font-size-small);
+text-align: center; }
+
 .prices {
   margin: var(--spacing-medium) 0;
 }
