@@ -1061,7 +1061,8 @@ margin-block-start: -1.5rem; }
 #announcement p {
 margin: 0;
 font-size: var(--font-size-small);
-text-align: center; }
+text-align: center;
+color: var(--color-text-default);}
 
 .prices {
   margin: var(--spacing-medium) 0;
