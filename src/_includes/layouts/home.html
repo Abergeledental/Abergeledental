@@ -68,34 +68,42 @@ Fri: 9am&#8211;1pm <br>
 </div><!-- grid -->
 
 <div id="modal">
-<div class="modalconent">
-<h1></h1>
 
-<p>fasfsdfasfsfsdfsdfsdsffsd</p>
-<button id="button">Close</button>
-</div>
-</div>
+<div id="announcement">
+<p>Don&#8217;t forget to brush your teeth night and morning.</p>
+<button id="button" class="btn">Close</button>
+</div><!-- announcement -->
+
+</div><!-- modal -->
 
 <style>
+
 #modal {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    height: 100%;
-    width: 100%;
-}
-.modalconent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    width: 80%;
-    padding: 20px;
-}
+position: fixed;
+top: 0;
+left: 0;
+z-index: 99999;
+background-color: rgba(39,47,51,.75);
+width: 100%;
+height: 100%; }
+
+#announcement {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-trim: block;
+padding: var(--spacing-small);
+width: 80%;
+background-color: var(--color-accent);
+color: var(--color-background); }
+
+#announcement p {
+margin: 0;
+font-size: var(--font-size-small);
+text-align: center;
+color: var(--color-background); }
+
 </style>
 
 <script>
