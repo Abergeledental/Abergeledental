@@ -67,33 +67,42 @@ Fri: 9am&#8211;1pm <br>
 
 </div><!-- grid -->
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-<div class="modal-dialog">
-<div class="modal-content">
+<div id="modal">
+<div class="modalconent">
+<h1></h1>
 
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-</div><!-- modal-header -->
+<p>fasfsdfasfsfsdfsdfsdsffsd</p>
+<button id="button">Close</button>
+</div>
+</div>
 
-<div class="modal-body">
-</div><!-- modal-body -->
-
-</div><!-- modal-content -->
-</div><!-- modal-dialog -->
-</div><!-- modal -->
+<style>
+#modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+.modalconent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 80%;
+    padding: 20px;
+}
+</style>
 
 <script>
-$(document).ready(function () {
-if (document.cookie.indexOf("visited=true") == -1) {
-// load the overlay
-$("#myModal").modal({ show: true });
-
-var year = 1000 * 60 * 60 * 24 * 365;
-var expires = new Date(new Date().valueOf() + year);
-document.cookie = "visited=true;expires=" + expires.toUTCString();
-}
-});
+window.onload = function () {
+document.getElementById('button').onclick = function () {
+document.getElementById('modal').style.display = "none" };
+};
 </script>
 
 {% endblock %}
