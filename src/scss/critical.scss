@@ -1386,12 +1386,16 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 margin-trim: block;
-padding: var(--spacing-small);
+padding: var(--spacing-medium);
 inline-size: 80%;
 max-inline-size: 480px;
 background-color: var(--color-accent);
 border-radius: var(--border-radius-default);
+box-sizing: border-box;
 color: var(--color-background); }
+
+#announcement h3 {
+text-align: center; }
 
 #announcement p {
 font-size: var(--font-size-small);
@@ -1404,7 +1408,7 @@ text-align: center; }
 
 #announcement .btn {
 margin-inline: auto;
-padding: var(--spacing-small);
+padding: var(--spacing-small) var(--spacing-medium);
 background-color: var(--color-background);
 color: var(--color-accent); }
 
