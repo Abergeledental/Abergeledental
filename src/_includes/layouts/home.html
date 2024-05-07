@@ -71,47 +71,12 @@ Fri: 9am&#8211;1pm <br>
 
 <div id="announcement">
 <p>Don&#8217;t forget to brush your teeth night and morning.</p>
+<div class="btn-group">
 <button id="button" class="btn">Close</button>
+</div><!-- btn-group -->
 </div><!-- announcement -->
 
 </div><!-- modal -->
-
-<style>
-
-#modal {
-position: fixed;
-top: 0;
-left: 0;
-z-index: 99999;
-background-color: rgba(39,47,51,.95);
-width: 100%;
-height: 100%; }
-
-#announcement {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-margin-trim: block;
-padding: var(--spacing-small);
-inline-size: 80%;
-max-inline-size: 480px;
-background-color: var(--color-accent);
-border-radius: var(--border-radius-default);
-color: var(--color-background); }
-
-#announcement p {
-margin: 0;
-font-size: var(--font-size-small);
-text-align: center;
-color: var(--color-background); }
-
-#announcement .btn {
-margin-inline: auto;
-background-color: var(--color-background);
-color: var(--color-accent); }
-
-</style>
 
 <script>
 window.onload = function () {
