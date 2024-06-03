@@ -67,7 +67,7 @@ Fri: 9am&#8211;1pm <br>
 
 </div><!-- grid -->
 
-<!-- <div id="modal">
+<div id="modal">
 
 <div id="announcement">
 <h3>Teeth care tips</h3>
@@ -80,10 +80,30 @@ Fri: 9am&#8211;1pm <br>
 </div>
 
 <script>
-window.onload = function () {
-document.getElementById('button').onclick = function () {
-document.getElementById('modal').style.display = "none" };
+window.onload = function() {
+    var modalClosed = localStorage.getItem('modalClosed');
+    
+    if (!modalClosed) {
+        document.getElementById('modal').style.display = "flex";
+
+        setTimeout(function() {
+            document.getElementById('modal').style.display = "none";
+            localStorage.setItem('modalClosed', 'true');
+        }, 30000);
+    }
+
+    document.getElementById('button').onclick = function() {
+        document.getElementById('modal').style.display = "none";
+        localStorage.setItem('modalClosed', 'true');
+    };
+
+    document.getElementById('modal').onclick = function(event) {
+        if (event.target == document.getElementById('modal')) {
+            document.getElementById('modal').style.display = "none";
+            localStorage.setItem('modalClosed', 'true');
+        }
+    };
 };
-</script> -->
+</script>
 
 {% endblock %}
