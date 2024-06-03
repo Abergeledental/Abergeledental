@@ -8,6 +8,21 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - name: "home"
+        label: "Home Pop up tips"
+        delete: false
+        file: "src/index.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/home.html",
+            }
+          - { label: "modalTitle", name: "modalTitle", widget: "string" }
+          - { label: "modalTip", name: "modalTip", widget: "markdown" }
       - name: "treatments"
         label: "Treatments"
         delete: false
