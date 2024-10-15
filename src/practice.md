@@ -8,7 +8,7 @@ ourpractice: >-
   historical region of Transylvania, Romania. Razvan begin treating patients at
   Abergele Dental in 2018.</p>
 
-  <p>Our team also includes dental nurse <b>Margareta Beretchi</b> <span class="qualifications">(GDC-312608)</span>, dental nurse <b>Louise Williams</b><span class="qualifications">(GDC-291996), and our dental nurse and office manager <b>Rachel Sheldon</b> <span class="qualifications">(GDC-129035)</span> who will answer your questions. We promote continuous staff development and training.</p>
+  <p>Our team also includes dental nurse <b>Margareta Beretchi</b> <span class="qualifications">(GDC-312608)</span>, dental nurse <b>Louise Williams</b> <span class="qualifications">(GDC-291996</span>), and our dental nurse and office manager <b>Rachel Sheldon</b> <span class="qualifications">(GDC-129035)</span> who will answer your questions. We promote continuous staff development and training.</p>
 
   <p>Phone us on <a href="tel:01745832279" title="Press to call">01745 832279</a> or email <a href="mailto:info@abergeledental.co.uk">info@abergeledental.co.uk</a> to discuss your dental care and arrange a consultation. Our practice is wheelchair accessible.</p>
 ourfamily: >
