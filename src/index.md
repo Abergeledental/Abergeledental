@@ -4,6 +4,10 @@ metaDesc: We deliver routine dental and restorative treatments and take enormous
   pride in the care we offer our patients.
 layout: layouts/home.html
 modalTitle: Teeth care tips
-modalTip: All our Denplan and Private patients have a dentist on  call every
-  weekend or Bank Holyday
+modalTip: >-
+  All our Denplan and Private patients have a dentist on  call every weekend or
+  Bank Holyday 
+
+
+  Merry Christmas and a happy new year !
 ---
